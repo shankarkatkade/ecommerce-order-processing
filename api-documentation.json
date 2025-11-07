@@ -1,0 +1,112 @@
+API Documentation
+Base URL: http://localhost:8080/api/v1
+
+Swagger UI: http://localhost:8080/swagger-ui.html
+
+POST
+/orders
+Create Order
+Creates a new order with multiple items.
+
+Request Body:
+{
+  "customerName": "John Doe",
+  "customerEmail": "john.doe@example.com",
+  "orderItems": [
+    {
+      "productId": 101,
+      "productName": "Laptop",
+      "quantity": 1,
+      "price": 1299.99
+    },
+    {
+      "productId": 102,
+      "productName": "Mouse",
+      "quantity": 2,
+      "price": 29.99
+    }
+  ]
+}
+Response (201 Created):
+{
+  "status": "success",
+  "message": "Order created successfully",
+  "data": {
+    "id": 1,
+    "orderNumber": "ORD-20251107-00001",
+    "customerName": "John Doe",
+    "customerEmail": "john.doe@example.com",
+    "status": "PENDING",
+    "totalAmount": 1359.97,
+    "orderItems": [...],
+    "createdAt": "2025-11-07T23:00:00",
+    "updatedAt": "2025-11-07T23:00:00"
+  },
+  "timestamp": "2025-11-07T23:00:00"
+}
+GET
+/orders/{id}
+Get Order by ID
+Retrieves order details by order ID.
+
+Path Parameters:
+id (Long) - Order ID
+Response (200 OK):
+{
+  "status": "success",
+  "message": "Order retrieved successfully",
+  "data": { /* Order details */ },
+  "timestamp": "2025-11-07T23:00:00"
+}
+Error Response (404 Not Found):
+{
+  "timestamp": "2025-11-07T23:00:00",
+  "status": 404,
+  "error": "Not Found",
+  "message": "Order not found with id: 999",
+  "details": []
+}
+GET
+/orders
+List All Orders
+Retrieves all orders with pagination and optional status filter.
+
+Query Parameters:
+status (Optional) - Filter by order status (PENDING, PROCESSING, SHIPPED, DELIVERED)
+page (Optional, default: 0) - Page number
+size (Optional, default: 10) - Page size
+sort (Optional, default: createdAt,desc) - Sort criteria
+Example: GET /orders?status=PENDING&page=0&size=20
+PATCH
+/orders/{id}/status
+Update Order Status
+Updates the status of an existing order.
+
+Request Body:
+{
+  "status": "PROCESSING"
+}
+Valid Status Transitions:
+PENDING → PROCESSING
+PROCESSING → SHIPPED
+SHIPPED → DELIVERED
+DELETE
+/orders/{id}
+Cancel Order
+Cancels an order. Only PENDING orders can be cancelled.
+
+Response (200 OK):
+{
+  "status": "success",
+  "message": "Order cancelled successfully",
+  "data": null,
+  "timestamp": "2025-11-07T23:00:00"
+}
+Error Response (400 Bad Request):
+{
+  "timestamp": "2025-11-07T23:00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Cannot cancel order. Only PENDING orders can be cancelled",
+  "details": []
+}

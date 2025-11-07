@@ -1,0 +1,534 @@
+2025-11-08 00:27:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:27:19 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - Starting ECommerceOrderProcessingSystemApplicationTests using Java 17.0.6 with PID 11612 (started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:27:19 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplicationTests - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:27:19 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 00:27:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:27:21 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9666794a-9ee0-4da2-830f-4040d41a08b3 user=SA
+2025-11-08 00:27:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:27:21 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:27:21 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:27:22 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:27:23 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:27:25 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - Started ECommerceOrderProcessingSystemApplicationTests in 5.474 seconds (process running for 6.543)
+2025-11-08 00:27:25 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:27:25 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 00:27:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:27:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:28:38 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:28:38 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - Starting ECommerceOrderProcessingSystemApplicationTests using Java 17.0.6 with PID 3192 (started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:28:38 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplicationTests - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:28:38 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 00:28:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:28:40 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:277496d5-a0f0-41b6-9f15-8d9e157df600 user=SA
+2025-11-08 00:28:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:28:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:28:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:28:40 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:28:41 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:28:43 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - Started ECommerceOrderProcessingSystemApplicationTests in 5.7 seconds (process running for 6.736)
+2025-11-08 00:28:43 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:28:43 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 00:28:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:28:44 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:29:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:29:14 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Starting ECommerceOrderProcessingSystemApplication using Java 23.0.1 with PID 28268 (C:\Users\shank\Downloads\ecommerce-order-processing\target\classes started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:29:14 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:29:14 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 00:29:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-08 00:29:16 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 00:29:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-08 00:29:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 00:29:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:29:16 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6bb2bced-768c-49bb-bd62-5868c267bf64 user=SA
+2025-11-08 00:29:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:29:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:29:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:29:17 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:29:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:29:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-08 00:29:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:29:20 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:29:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:29:56 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Starting ECommerceOrderProcessingSystemApplication using Java 23.0.1 with PID 10864 (C:\Users\shank\Downloads\ecommerce-order-processing\target\classes started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:29:56 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:29:56 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 00:29:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2025-11-08 00:29:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 00:29:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-08 00:29:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 00:29:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:29:58 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b5643000-354f-42d5-8180-3c842c7b5886 user=SA
+2025-11-08 00:29:58 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:29:59 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:29:59 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:29:59 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:30:00 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:30:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2025-11-08 00:30:01 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Started ECommerceOrderProcessingSystemApplication in 5.655 seconds (process running for 6.121)
+2025-11-08 00:30:01 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:30:02 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 00:32:48 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-08 00:32:48 [http-nio-8089-exec-1] INFO  c.e.controller.OrderController - Received request to fetch order by ID: 1
+2025-11-08 00:32:48 [http-nio-8089-exec-1] DEBUG c.ecommerce.service.OrderServiceImpl - Fetching order by ID: 1
+2025-11-08 00:32:48 [http-nio-8089-exec-1] ERROR c.ecommerce.service.OrderServiceImpl - Order not found with ID: 1
+2025-11-08 00:32:48 [http-nio-8089-exec-1] ERROR c.e.exception.GlobalExceptionHandler - Order not found: Order not found with id: 1
+2025-11-08 00:34:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:34:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:37:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:37:22 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - Starting ECommerceOrderProcessingSystemApplicationTests using Java 17.0.6 with PID 11776 (started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:37:22 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplicationTests - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:37:22 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-11-08 00:37:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:37:24 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:c9ebed38-4977-4b75-9fc9-8540666c345e user=SA
+2025-11-08 00:37:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:37:24 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:37:24 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:37:24 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:37:26 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:37:27 [main] INFO  c.e.ECommerceOrderProcessingSystemApplicationTests - Started ECommerceOrderProcessingSystemApplicationTests in 5.58 seconds (process running for 6.62)
+2025-11-08 00:37:27 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:37:28 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 00:37:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:37:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:38:24 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:38:25 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Starting ECommerceOrderProcessingSystemApplication using Java 23.0.1 with PID 18384 (C:\Users\shank\Downloads\ecommerce-order-processing\target\classes started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:38:25 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:38:25 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - The following 1 profile is active: "h2"
+2025-11-08 00:38:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2025-11-08 00:38:26 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 00:38:26 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-08 00:38:26 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 00:38:26 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:38:27 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommercedb user=SA
+2025-11-08 00:38:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:38:27 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:38:27 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:38:27 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:38:27 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-08 00:38:28 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:38:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:38:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:38:30 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 00:40:09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:40:09 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Starting ECommerceOrderProcessingSystemApplication using Java 23.0.1 with PID 15044 (C:\Users\shank\Downloads\ecommerce-order-processing\target\classes started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:40:09 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:40:09 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - The following 1 profile is active: "h2"
+2025-11-08 00:40:11 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2025-11-08 00:40:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 00:40:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-08 00:40:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 00:40:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:40:11 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommercedb user=SA
+2025-11-08 00:40:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:40:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:40:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:40:11 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:40:12 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-08 00:40:13 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:40:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:40:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:40:14 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-08 00:40:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:40:55 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Starting ECommerceOrderProcessingSystemApplication using Java 23.0.1 with PID 3832 (C:\Users\shank\Downloads\ecommerce-order-processing\target\classes started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:40:55 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:40:55 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - The following 1 profile is active: "h2"
+2025-11-08 00:40:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2025-11-08 00:40:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 00:40:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-08 00:40:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 00:40:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:40:57 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommercedb user=SA
+2025-11-08 00:40:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:40:57 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:40:57 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:40:57 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:40:58 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-08 00:40:58 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:41:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2025-11-08 00:41:00 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Started ECommerceOrderProcessingSystemApplication in 5.653 seconds (process running for 6.067)
+2025-11-08 00:41:00 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:41:00 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Order ORD-20251107-00001 updated from PENDING to PROCESSING
+2025-11-08 00:41:00 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Order ORD-20251107-00002 updated from PENDING to PROCESSING
+2025-11-08 00:41:00 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: 2 orders updated from PENDING to PROCESSING
+2025-11-08 00:41:37 [http-nio-8090-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-08 00:41:37 [http-nio-8090-exec-6] ERROR c.e.exception.GlobalExceptionHandler - Unexpected error occurred: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-08 00:41:40 [http-nio-8090-exec-8] ERROR c.e.exception.GlobalExceptionHandler - Unexpected error occurred: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-08 00:41:41 [http-nio-8090-exec-10] ERROR c.e.exception.GlobalExceptionHandler - Unexpected error occurred: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-08 00:42:08 [http-nio-8090-exec-4] ERROR c.e.exception.GlobalExceptionHandler - Unexpected error occurred: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-08 00:42:09 [http-nio-8090-exec-3] ERROR c.e.exception.GlobalExceptionHandler - Unexpected error occurred: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-08 00:42:28 [http-nio-8090-exec-9] INFO  c.e.controller.OrderController - Received request to fetch order by ID: 1
+2025-11-08 00:42:28 [http-nio-8090-exec-9] DEBUG c.ecommerce.service.OrderServiceImpl - Fetching order by ID: 1
+2025-11-08 00:42:28 [http-nio-8090-exec-9] DEBUG c.ecommerce.service.OrderServiceImpl - Order found: ORD-20251107-00001
+2025-11-08 00:42:28 [http-nio-8090-exec-9] DEBUG c.e.controller.OrderController - Order retrieved: ORD-20251107-00001
+2025-11-08 00:44:48 [http-nio-8090-exec-6] INFO  c.e.controller.OrderController - Received request to fetch order by ID: 10
+2025-11-08 00:44:48 [http-nio-8090-exec-6] DEBUG c.ecommerce.service.OrderServiceImpl - Fetching order by ID: 10
+2025-11-08 00:44:48 [http-nio-8090-exec-6] DEBUG c.ecommerce.service.OrderServiceImpl - Order found: ORD-20251105-00003
+2025-11-08 00:44:48 [http-nio-8090-exec-6] DEBUG c.e.controller.OrderController - Order retrieved: ORD-20251105-00003
+2025-11-08 00:46:00 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:46:00 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 00:51:00 [order-scheduler-2] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:51:00 [order-scheduler-2] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 00:54:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 00:54:17 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-11-08 00:54:21 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-08 00:54:22 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Starting ECommerceOrderProcessingSystemApplication using Java 23.0.1 with PID 2672 (C:\Users\shank\Downloads\ecommerce-order-processing\target\classes started by shank in C:\Users\shank\Downloads\ecommerce-order-processing)
+2025-11-08 00:54:22 [main] DEBUG c.e.ECommerceOrderProcessingSystemApplication - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-08 00:54:22 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - The following 1 profile is active: "h2"
+2025-11-08 00:54:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2025-11-08 00:54:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-08 00:54:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-08 00:54:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-08 00:54:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-08 00:54:24 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommercedb user=SA
+2025-11-08 00:54:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-11-08 00:54:24 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-08 00:54:24 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-08 00:54:24 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-08 00:54:24 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-08 00:54:25 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-08 00:54:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2025-11-08 00:54:26 [main] INFO  c.e.ECommerceOrderProcessingSystemApplication - Started ECommerceOrderProcessingSystemApplication in 5.493 seconds (process running for 5.96)
+2025-11-08 00:54:26 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:54:27 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Order ORD-20251107-00001 updated from PENDING to PROCESSING
+2025-11-08 00:54:27 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Order ORD-20251107-00002 updated from PENDING to PROCESSING
+2025-11-08 00:54:27 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: 2 orders updated from PENDING to PROCESSING
+2025-11-08 00:54:56 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-08 00:54:56 [http-nio-8090-exec-2] ERROR c.e.exception.GlobalExceptionHandler - Unexpected error occurred: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/orders.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-08 00:55:03 [http-nio-8090-exec-4] INFO  c.e.controller.OrderController - Received request to fetch orders - status: null, page: 0, size: 10
+2025-11-08 00:55:03 [http-nio-8090-exec-4] DEBUG c.ecommerce.service.OrderServiceImpl - Fetching all orders with pagination: page=0, size=10
+2025-11-08 00:55:03 [http-nio-8090-exec-4] DEBUG c.ecommerce.service.OrderServiceImpl - Found 10 orders
+2025-11-08 00:55:03 [http-nio-8090-exec-4] DEBUG c.e.controller.OrderController - Retrieved 10 orders
+2025-11-08 00:59:26 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 00:59:26 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 01:04:26 [order-scheduler-2] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 01:04:26 [order-scheduler-2] DEBUG c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: No pending orders to process
+2025-11-08 01:04:36 [http-nio-8090-exec-7] INFO  c.e.controller.OrderController - Received request to update order 2 status to: DELIVERED
+2025-11-08 01:04:36 [http-nio-8090-exec-7] DEBUG c.ecommerce.service.OrderServiceImpl - Updating order status for order ID: 2 to DELIVERED
+2025-11-08 01:04:36 [http-nio-8090-exec-7] ERROR c.e.exception.GlobalExceptionHandler - Invalid order status: Invalid status transition from PROCESSING to DELIVERED
+2025-11-08 01:04:45 [http-nio-8090-exec-9] INFO  c.e.controller.OrderController - Received request to update order 2 status to: PROCESSING
+2025-11-08 01:04:45 [http-nio-8090-exec-9] DEBUG c.ecommerce.service.OrderServiceImpl - Updating order status for order ID: 2 to PROCESSING
+2025-11-08 01:04:45 [http-nio-8090-exec-9] ERROR c.e.exception.GlobalExceptionHandler - Invalid order status: Invalid status transition from PROCESSING to PROCESSING
+2025-11-08 01:04:51 [http-nio-8090-exec-10] INFO  c.e.controller.OrderController - Received request to update order 2 status to: SHIPPED
+2025-11-08 01:04:51 [http-nio-8090-exec-10] DEBUG c.ecommerce.service.OrderServiceImpl - Updating order status for order ID: 2 to SHIPPED
+2025-11-08 01:04:51 [http-nio-8090-exec-10] INFO  c.ecommerce.service.OrderServiceImpl - Order ORD-20251107-00002 status updated from PROCESSING to SHIPPED
+2025-11-08 01:04:51 [http-nio-8090-exec-10] INFO  c.e.controller.OrderController - Order 2 status updated to: SHIPPED
+2025-11-08 01:05:13 [http-nio-8090-exec-2] INFO  c.e.controller.OrderController - Received request to fetch order by ID: 2
+2025-11-08 01:05:13 [http-nio-8090-exec-2] DEBUG c.ecommerce.service.OrderServiceImpl - Fetching order by ID: 2
+2025-11-08 01:05:13 [http-nio-8090-exec-2] DEBUG c.ecommerce.service.OrderServiceImpl - Order found: ORD-20251107-00002
+2025-11-08 01:05:13 [http-nio-8090-exec-2] DEBUG c.e.controller.OrderController - Order retrieved: ORD-20251107-00002
+2025-11-08 01:06:34 [http-nio-8090-exec-3] INFO  c.e.controller.OrderController - Received request to create order for customer: Shankar K
+2025-11-08 01:06:34 [http-nio-8090-exec-3] DEBUG c.ecommerce.service.OrderServiceImpl - Creating order for customer: Shankar K
+2025-11-08 01:06:34 [http-nio-8090-exec-3] DEBUG c.ecommerce.service.OrderServiceImpl - Generated order number: ORD-20251108-00001
+2025-11-08 01:06:34 [http-nio-8090-exec-3] INFO  c.ecommerce.service.OrderServiceImpl - Order created successfully: ORD-20251108-00001 for customer: Shankar K
+2025-11-08 01:06:34 [http-nio-8090-exec-3] INFO  c.e.controller.OrderController - Order created successfully: ORD-20251108-00001
+2025-11-08 01:06:49 [http-nio-8090-exec-6] ERROR c.e.exception.GlobalExceptionHandler - Unexpected error occurred: 
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/v1/orders.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2025-11-08 01:06:53 [http-nio-8090-exec-8] INFO  c.e.controller.OrderController - Received request to fetch order by ID: 11
+2025-11-08 01:06:53 [http-nio-8090-exec-8] DEBUG c.ecommerce.service.OrderServiceImpl - Fetching order by ID: 11
+2025-11-08 01:06:53 [http-nio-8090-exec-8] DEBUG c.ecommerce.service.OrderServiceImpl - Order found: ORD-20251108-00001
+2025-11-08 01:06:53 [http-nio-8090-exec-8] DEBUG c.e.controller.OrderController - Order retrieved: ORD-20251108-00001
+2025-11-08 01:09:26 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Starting scheduled task: Process pending orders
+2025-11-08 01:09:26 [order-scheduler-1] DEBUG c.ecommerce.task.OrderSchedulerTask - Order ORD-20251108-00001 updated from PENDING to PROCESSING
+2025-11-08 01:09:26 [order-scheduler-1] INFO  c.ecommerce.task.OrderSchedulerTask - Scheduled task completed: 1 orders updated from PENDING to PROCESSING
+2025-11-08 01:11:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-11-08 01:11:10 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
